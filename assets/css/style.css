@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body 
+  {
+
+    font-family: Arial;
+    margin: 0;
+  }
+
+  header 
+  {
+    display:flex ;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    text-align: center;
+    
+  }
+
+  nav ul 
+  {
+    display:flex ;
+    flex-direction: row;
+    justify-content:end;
+    /* Removes dots from ul elements */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+  }
+  ul li
+  {
+    padding: 5%;
+  }
+  
+  .background {
+    display: flex;
+    flex-direction: row;
+    /* Centers along the main axis determined by flex-direction */
+    justify-content: center;
+    /* Centers along the opposite axis */
+    align-items: center;
+    width: auto;
+    /* Uses the height of the viewport */
+    height: 100vh;
+    margin: 0;
+    border-style:dotted;
+    border-color: crimson;
+    border-width: 10px;
+
+  }
+
+  .title
+  {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    border-style:dashed;
+    justify-content:space-between;
+    align-items: end;
+    border-width: 5px;
+    width: auto;
+    height: 100px;
+  }
+  
+  .card {
+    padding: 10px;
+    width: 250px;
+    text-align: center;
+    border-style:dotted;
+    border-color: blue;
+    border-width: 10px;
+  }
+  
+  .card img {
+    width: 100%;
+  }
+  
