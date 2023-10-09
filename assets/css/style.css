@@ -1,55 +1,83 @@
-* {
-    margin: 0;
-    padding: 0;
-  }
-  
+
   body 
   {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
+    Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
 
-    font-family: Arial;
-    margin: 0;
+  /* set body font size to 1.75rem, which is 1.75x more than the font-size of 10px, making it 17.5px  */
+     font-size: 1.75rem;
+     line-height: 1.5;
+      margin: 0;
   }
 
   header 
   {
-    display:flex ;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 40px;
-    text-align: center;
-    
-  }
-
-  nav ul 
-  {
-    display:flex ;
-    flex-direction: row;
-    justify-content:end;
-    /* Removes dots from ul elements */
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    
-  }
-  ul li
-  {
-    padding: 5%;
-  }
-  
-  .background {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     /* Centers along the main axis determined by flex-direction */
     justify-content: center;
     /* Centers along the opposite axis */
     align-items: center;
     width: auto;
+    
+  }
+
+  nav
+  {
+    display: flex;
+  }
+
+  nav ul
+   
+  {
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  
+  nav a 
+  {
+      color: #13293d;
+      padding: 14px 20px;
+      text-decoration: none;
+      text-align: center;
+  }
+
+  h1
+  {
+    font-size: 200%;
+  }
+
+  ul
+  {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+  }
+
+  p
+  {
+    margin-bottom: 1 rem;
+  }
+  
+  .background {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* Centers along the main axis determined by flex-direction */
+    justify-content: flex-start;
+    /* Centers along the opposite axis */
+    align-items: start;
+    width: auto;
     /* Uses the height of the viewport */
-    height: 100vh;
+    height: auto;    
     margin: 0;
     border-style:dotted;
     border-color: crimson;
+    background-color: cadetblue;
     border-width: 10px;
 
   }
@@ -57,24 +85,42 @@
   .title
   {
     display: flex;
-    flex-direction: row;
-    margin: 0 auto;
-    border-style:dashed;
-    justify-content:space-between;
+    flex-wrap: wrap;
+    /* Centers along the main axis determined by flex-direction */
+    justify-content: space-between;
     align-items: end;
     border-width: 5px;
+
+    margin: 0 auto;
+    border-style: dashed;
+    
     width: auto;
-    height: 100px;
+    height: auto;
   }
   
-  .card {
+  .card 
+  {
     padding: 10px;
     width: 250px;
+    height: 250px;
+    flex: 1 0 200px;
     text-align: center;
     border-style:dotted;
     border-color: blue;
     border-width: 10px;
   }
+
+  .card-aboutme
+  {
+    padding: 10px;
+    height: 500px;
+    flex: 1 1 300px;
+    text-align: center;
+    border-style:dotted;
+    border-color: rgb(196, 111, 32);
+    border-width: 10px;
+  }
+
   
   .card img {
     width: 100%;
