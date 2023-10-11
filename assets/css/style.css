@@ -141,12 +141,10 @@
     border-width: 5px;
   } */
 
-
-
   
   .card img 
   {
-    width: 100%;
+    max-width: 100%;
   }
 
   .h-line 
@@ -162,4 +160,41 @@
     height: 100px;
     margin: 0 auto;
     width: 2px;
+}
+
+.past-projects-display .links 
+{
+  display: none;  
+}
+ 
+
+/* Display the links when the parent is in a hover state */
+.past-projects-display:hover .links 
+{
+  display: grid;
+  align-items: flex-end;
+  justify-content: space-between;
+  overflow:hidden
+}
+
+.past-projects-display .links img
+{
+  max-width: 100%;
+  padding: 5px
+
+}
+
+.past-projects-display:hover .links p 
+{
+  padding: 5rem;
+} 
+
+
+.past-projects-display a {
+  color: #772014;
+  text-decoration: none;
+}
+
+.links a:hover {
+  text-decoration: underline;
 }
