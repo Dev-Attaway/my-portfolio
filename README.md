@@ -3,8 +3,7 @@
 ## Description
 This project is intended to display the Developer has gained since participating in the MSU bootcamp
 # Completed Website page:
-![](.assets/images/README.png)
-
+![](./assets/images/README.png)
 ## Installation
 
 Files are available for download through Git Hub:
