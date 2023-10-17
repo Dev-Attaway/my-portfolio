@@ -3,7 +3,7 @@
 ## Description
 This project is intended to display the Developer has gained since participating in the MSU bootcamp
 # Completed Website page:
-![](./assets/images/Screenshot 2023-10-16 184023.png)
+![](.assets/images/Screenshot 2023-10-16 184023.png)
 
 ## Installation
 
